@@ -1,0 +1,8 @@
+Things to keep in mind
+
+1. First write the flow, then write the entities with their data members
+
+2. Create a service and write basic API'service
+
+3. When you have to return a spot or show, return the & in a pointer. We do this because we have to mutate it.
+
