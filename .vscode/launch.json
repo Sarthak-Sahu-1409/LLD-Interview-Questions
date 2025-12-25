@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ssart/OneDrive/Desktop/LLD-Interview-Questions/ParkingLot",
-      "program": "c:/Users/ssart/OneDrive/Desktop/LLD-Interview-Questions/ParkingLot/build/Debug/outDebug",
+      "cwd": "c:/Users/ssart/OneDrive/Desktop/LLD-Interview-Questions/Snake&Ladder",
+      "program": "c:/Users/ssart/OneDrive/Desktop/LLD-Interview-Questions/Snake&Ladder/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
