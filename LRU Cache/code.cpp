@@ -124,27 +124,24 @@ public:
 };
 
 
-class LRUCacheDemo {
-public:
-    static void run() {
-        LRUCache cache(3);
-
-        cache.put(1, 10);
-        cache.put(2, 20);
-        cache.put(3, 30);
-
-        cout << cache.get(1) << endl; // 10
-
-        cache.put(4, 40);             // Evicts key 2
-
-        cout << cache.get(2) << endl; // -1
-        cout << cache.get(3) << endl; // 30
-        cout << cache.get(4) << endl; // 40
-    }
-};
-
-
 int main() {
-    LRUCacheDemo::run();
+
+    LRUCache* obj = new LRUCache(3);
+
+    obj->put(1, 10);
+    obj->put(2, 20);
+    obj->put(3, 30);
+
+    cout << obj->get(1) << endl; // 10
+
+    obj->put(4, 40);             // Evicts key 2
+
+    cout << obj->get(2) << endl; // -1
+    cout << obj->get(3) << endl; // 30
+    cout << obj->get(4) << endl; // 40
+
+    delete obj;
+
     return 0;
 }
+
